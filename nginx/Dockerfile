@@ -1,3 +1,2 @@
-FROM nginx:alpine
+FROM nginx
 RUN mkdir -p /etc/nginx/logs
-COPY webapp.conf /etc/nginx/conf.d
